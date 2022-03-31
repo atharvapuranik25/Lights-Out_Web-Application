@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<title>Light'sOut!-LogIn</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<head>
+    <style>
+    body {
+      background-image: url('bgimg.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    </style>
+
+</head>
+
+<body>
+
+<div class="w3-container">
+
+  <div class="w3-card-4 w3-white w3-display-right w3-padding w3-round-large" style="width:30%; margin-right: 100px;">
+  <br>
+    <div class="w3-container w3-center">
+      <img src="logo.jpg" alt="Logo" style="width:10%">
+      <h3>Light's Out</h3>
+      <h6 style="font-style: italic;">For people who love and live Cinema</h6>
+      <br>
+
+      <form action="session.php" method="post">
+      
+        <input type="email" name="email" placeholder="Email Address" style="width:80%; border: 2px solid; border-radius: 12px; padding: 5px;" required>
+        <br><br>
+        <input type="password" name="passcode" placeholder="Enter Password" style="width:80%; border: 2px solid; border-radius: 12px; padding: 5px;" required>
+        <br><br>
+      <div class="w3-section">
+        <button type="submit" class="w3-button w3-black" style="width:30%; border: 2px solid; border-radius: 12px; padding: 5px;">LogIn</button>
+      </div>
+      </form>
+      <h5>OR</h5>
+      <div>
+        <form action="signup_page.php">
+        <button class="w3-button w3-black" style="width:30%; border: 2px solid; border-radius: 12px; padding: 5px;">SignUp</button>
+        </form>
+      </div>
+      <br>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
